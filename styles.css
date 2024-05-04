@@ -1,0 +1,171 @@
+.cont{
+    display:flex;
+    padding-left: 85px;
+    padding-right:85px;
+    margin-top:60px;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.one1{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.one p {
+    text-align: center;
+}
+
+.one1 p {
+    text-align: center;
+}
+
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 3 columns */
+    grid-template-rows: repeat(12, 1fr); /* 3 rows */
+    gap: 10px; /* Gap between grid items */
+    width: 80vw;
+    height:40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Rounded corners for images */
+  }
+
+
+  
+
+  .Image1 {
+    grid-area: 1 / 1 / 7 / 3; /* row-start / column-start / row-end / column-end */
+    
+  }
+  
+  .Image2 {
+    grid-area: 1 / 3 / 4 / 4;
+   
+  }
+  
+  .Image4 {
+    grid-area: 1 / 5 / 4 / 7;
+    
+  }
+
+  .Image3 {
+    grid-area: 1 / 4 / 4 / 5;
+   
+  }
+
+  .Image5 {
+    grid-area: 4 / 3 / 7 / 4;
+   
+  }
+
+  .Image6 {
+    grid-area: 4 / 4 / 7 / 5;
+    
+  }
+
+  .Image7 {
+    grid-area: 4 / 5 / 7 / 7;
+    
+  }
+
+  .Image8 {
+    grid-area: 7 / 1 / 13 / 3;
+   
+  }
+
+  .Image9{
+    grid-area: 7 / 3 / 13 / 7;
+  
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.silver{
+    width: 81.8vw;
+    height:aut0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    margin-top: 90px;
+}
+.button{
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .cont{
+        display:flex;
+        padding-left: 65px;
+        padding-right:65px;
+        margin-top:60px;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .container{
+        display:flex;
+       padding-left: 30px;
+       padding-right: 30px;
+        margin-top:60px;
+        justify-content: center;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+   
+
+    /* .button{
+        display: none;
+    } */
+    .go{
+       
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .go p {
+        order: 1;
+    }
+    .button{
+        order: 0;
+        margin-right: auto;
+        width: 80px;
+        font-size: 10px;
+       margin: 10px auto;
+    }
+}
+
+
+@media screen and (max-width: 588px) { 
+    .one1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .cont{
+        padding-left: 20px;
+        padding-right:20px;
+    }
+}
